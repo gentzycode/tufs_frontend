@@ -17,17 +17,20 @@ const Landing = () => {
                         {/** START HOME BANNER */}
                         <div className='w-full flex justify-center mt-6 pb-6'>
                             <div className='w-[90%] flex'>
-                                <div className='w-full md:w-3/5 leading-tight mt-6 text-white text-3xl md:text-6xl'>The Vision Of The Future In Our Hands For 2070</div>
+                                <div className='w-full md:w-3/5 leading-tight mt-6 text-white text-2xl md:text-6xl'>Powering Anambra's Tech Revolution: Techies Unite For Soludo</div>
                             </div>
                         </div>
                         <div className='flex justify-center'>
                             <div className='md:flex items-center w-[90%] space-y-4 md:space-y-0'>
                                 <div className='w-full md:w-1/2 grid space-y-8'>
-                                    <span className='text-white text-lg md:w-[80%]'>Discover our visionary 2070 projects, where AI, space exploration, and virtual realities shape a smarter, more sustainable world.</span>
+                                    <span className='text-white text-lg md:w-[80%]'>Join TUFS to champion Anambra's technological growth and shape a brighter, tech-driven future beyond 2025.</span>
+                                    <a href="https://soludo.tech" target="_blank" rel="noopener noreferrer">
                                     <div className='flex max-w-max items-center space-x-3 rounded-md bg-[#b4040f] p-3 text-white cursor-pointer'>
                                         <span>Discover more</span>
                                         <FaArrowRight size={12} className='mt-1' />
                                     </div>
+                                </a>
+
                                 </div>
                                 <div className='w-full md:w-1/2'>
                                     <img src='/assets/banner-icon.png' alt='banner icon' />
@@ -49,8 +52,7 @@ const Landing = () => {
                                     </div>
                                     <div className='w-full md:w-1/2'>
                                         <span className='text-white text-lg'>
-                                        Empowering innovation for the year 2070, our platform pioneers the development of cutting-edge technology, shaping a future where humanity thrives through sustainable, advanced solutions Our platform is dedicated to creating transformative technologies for the year 2070, driving innovation that fosters a sustainable, connected, and prosperous future for all
-                                        </span>
+                                        Our mission is to sustain and advance the technological revolution initiated by Governor Soludo, ensuring that Anambra State remains a leader in digital transformation. We are committed to driving innovation and fostering collaboration to secure a prosperous future, aligning our efforts with the Vision 2070 agenda. By promoting continuity beyond 2025, we aim to enhance the quality of life for all residents and position Anambra State as a beacon of technological progress and sustainable development for generations to come.                                        </span>
                                     </div>
                                 </div>
                                 {/** END MISSION */}

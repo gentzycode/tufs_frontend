@@ -24,7 +24,7 @@ const PublicHeader = () => {
                     <Link to="/" className='text-white'>Team</Link>
                     <Link to="/" className='text-white'>News</Link>
                 </div>
-                <button className='md:flex hidden items-center px-6 py-1.5 rounded-md bg-[#b4040f] text-white'>Sign in</button>
+                <a href="https://soludo.tech" className='md:flex hidden items-center px-6 py-1.5 rounded-md bg-[#b4040f] text-white' target="_blank" rel="noopener noreferrer">Sign in</a>
                 {
                     !shownav ? 
                     <RxHamburgerMenu 
@@ -58,7 +58,9 @@ const PublicHeader = () => {
                         <Link to="/" className='text-white'>News</Link>
                     </div>
                     <div className='py-3 drop-shadow-xl'>
-                        <button className='w-full p-3 rounded-md bg-[#b4040f] text-white'>Sign in</button>
+                        <a href="https://soludo.tech" target="_blank" rel="noopener noreferrer">
+                            <button className='w-full p-3 rounded-md bg-[#b4040f] text-white'>Sign in</button>
+                        </a>
                     </div>
                 </div>
             }
@@ -66,4 +68,4 @@ const PublicHeader = () => {
     )
 }
 
-export default PublicHeader
+export default PublicHeader;
